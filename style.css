@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(./img/background_image.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin:25px 30px;
+    background-color: rgba(0,0,0,.4);
+    padding: 2rem 0;
+    width: 90%;
+}
+.baslık {
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+}
+
+span {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 1rem;
+
+}
+#survey-form{
+    background-color: rgba(0,0,0,0.8);
+    padding: .7rem 1rem .5rem;
+    margin: 0 auto;
+}
+
+#name,#age,#Email,#contentype {
+    width: 100%;
+    height: 50px;
+    margin-top:16px;
+
+}
+#textarea {
+    margin-top: 1rem;
+    width: 100%;
+    resize: none;
+}
+
+.input:last-child {
+    text-align: center; 
+}
+
+#submitButton {
+    padding: .5rem 3rem;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+
+}
+
+#submitButton:hover {
+    color: red;
+    background-color: white;
+}
+
+#ResetButton {
+    padding: .5rem 3rem;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+#ResetButton:hover {
+    color: red;
+    background-color: white;
+}
